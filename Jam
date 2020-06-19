@@ -83,13 +83,15 @@ print  """
 \033[1;97m             |  |   | (   ) | | |   | |
 \033[1;97m          |\_)  )   | )   ( | | )   ( |
 \033[1;97m          (____/    |/     \| |/     \|
-\033[1;97m           ♨️───────(SHAHRUKH)───────♨️                                                              
+\033[1;97m          ♨️°───────(SHAHRUKH)───────°♨️                                                              
 
 """
 
-jalan("\033[1;97m♨️°───────(NOT A NAME ITS BRAND)───────°♨️")  
-jalan("\033[1;97m♨️°───────(JAM_KING_OF_FACEBOOK)───────°♨️")
+print  """
+\033[1;92m♨️°───────(NOT A NAME ITS BRAND)───────°♨️
+\033[1;92m♨️°───────(JAM_KING_OF_FACEBOOK)───────°♨️
 
+"""
 
 CorrectUsername = "jam"
 CorrectPassword = "jam"

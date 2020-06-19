@@ -48,14 +48,14 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;92m             _________  _______   _______ 
-\033[1;92m             \__    _/ (  ___  ) (       )
-\033[1;92m                )  (   | (   ) | | () () |
-\033[1;92m                |  |   | (___) | | || || |
-\033[1;92m                |  |   |  ___  | | |(_)| |
-\033[1;92m                |  |   | (   ) | | |   | |
-\033[1;92m             |\_)  )   | )   ( | | )   ( |
-\033[1;92m             (____/    |/     \| |/     \|
+\033[1;92m           _________  _______   _______ 
+\033[1;92m           \__    _/ (  ___  ) (       )
+\033[1;92m              )  (   | (   ) | | () () |
+\033[1;92m              |  |   | (___) | | || || |
+\033[1;92m              |  |   |  ___  | | |(_)| |
+\033[1;92m              |  |   | (   ) | | |   | |
+\033[1;92m           |\_)  )   | )   ( | | )   ( |
+\033[1;92m           (____/    |/     \| |/     \|
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -83,12 +83,12 @@ print  """
 \033[1;97m             |  |   | (   ) | | |   | |
 \033[1;97m          |\_)  )   | )   ( | | )   ( |
 \033[1;97m          (____/    |/     \| |/     \|
-\033[1;97m         ♨️───────(SHAHRUKH)───────♨️                                                              
+\033[1;97m           ♨️───────(SHAHRUKH)───────♨️                                                              
 
 """
 
-jalan("\033[1;97m♨️───────(NOT A NAME ITS BRAND)───────♨️")  
-jalan("\033[1;97m♨️───────(JAM_KING_OF_FACEBOOK)───────♨️")
+jalan("\033[1;97m♨️°───────(NOT A NAME ITS BRAND)───────°♨️")  
+jalan("\033[1;97m♨️°───────(JAM_KING_OF_FACEBOOK)───────°♨️")
 
 
 CorrectUsername = "jam"
@@ -309,9 +309,9 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
+	print "\n\033[1;97m  ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 
-	jalan('                    \033[1;97mJam start cloning Wait...')
+	jalan('       \033[1;97mJam start cloning Wait...')
 	print  " \033[1;36;48m●════════════════════◄JAM►════════════════════●" 
 
 	def main(arg):
@@ -426,7 +426,7 @@ def pilih_super():
 		except:																		
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id) 
 	
 	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;97m....'
